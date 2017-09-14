@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="en-us">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="/arquivos/style.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.min.css" />
+	<title>Home mobile</title>
+</head>
+<body>
+	<header class="row reset-row">
+		<div class="menuPrincipal">
+			<div class="col-sm-12 col-xs-12 col-reset">
+				<div id="wrapper" class="header-1">
+					<div class="overlay" style="display: none;"></div>
+					<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+						<ul class="nav sidebar-nav">
+							<li class="catMenu">
+								<a href="#">#FORHER</a>
+							</li>
+							<ul class="subcat">
+								<li><a href="#">ROUPAS</a></li>
+								<li><a href="#">ACESSÓRIOS</a></li>
+								<li><a href="#">CALÇADOS</a></li>
+								<li><a href="#">BOLSAS</a></li>
+							</ul>
+							<li class="catMenu">
+								<a href="#">#FORHIM</a>
+							</li>
+							<ul class="subcat">
+								<li><a href="#">ROUPAS</a></li>
+								<li><a href="#">ACESSÓRIOS</a></li>
+								<li><a href="#">CALÇADOS</a></li>
+								<li><a href="#">POLOS</a></li>
+								<li><a href="#">JEANS</a></li>
+							</ul>
+							<li id="menuSobre" class="grayBg">
+								<a href="#"> Sobre nós</a>
+							</li>
+							<li id="menuAtendimento" class="grayBg">
+								<a href="#"> Atendimento</a>
+							</li>
+							<li id="menuMeus" class="grayBg">
+								<a href="#"> Meus Pedidos</a>
+							</li>
+							<li id="menuLogin" >
+								<a href="#"> LOGIN</a>
+							</li>
+						</ul>
+					</nav>
+					<div id="page-content-wrapper">
+						<button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+							<span class="hamb-top"></span>
+							<span class="hamb-middle"></span>
+							<span class="hamb-bottom"></span>
+						</button>
+					</div>
+				</div>
+				<div class="header-2">
+					<img class="logo" src="/arquivos/logoMobile.png"/>
+				</div>
+				<div class="header-3">
+					<img class="cart" src="/arquivos/cartMobile.png"/>
+				</div>
+			</div>
+			<div class="row reset-row">
+				<div id="cat-header"  class="col-sm-12 col-xs-12 col-reset">
+					<div class="col-20">
+						<img src="/arquivos/cat1Mobile.png"/>
+					</div>
+					<div class="col-20">
+						<img src="/arquivos/cat2Mobile.png"/> 
+					</div>	
+					<div class="col-20">
+						<img src="/arquivos/cat3Mobile.png"/>
+					</div>	
+					<div class="col-20">
+						<img src="/arquivos/cat4Mobile.png"/>
+					</div>
+					<div class="col-20">
+						<img src="/arquivos/cat5Mobile.png"/>
+					</div>			
+				</div>
+			</div>
+		</div>
+		<div class="row reset-row">
+			<div id="buscar" class="col-sm-12 col-xs-12 col-reset">
+				<vtex.cmc:fullTextSearchBox/> 
+			</div>
+		</div>
+	</header>
+	<div class="row reset-row">
+		<div class="banner-mobile col-sm-12 col-xs-12 col-reset">
+			<div><img src="/arquivos/bannerMobile.png"/></div>
+			<div><img src="/arquivos/bannerMobile.png"/></div>
+			<div><img src="/arquivos/bannerMobile.png"/></div>
+			<div><img src="/arquivos/bannerMobile.png"/></div>
+		</div>
+	</div>
+	<div class="row reset-row">
+		<div class="lancamentos-mobile col-sm-12 col-xs-12 col-reset">
+			<vtex:contentPlaceHolder id="colecao-lancamentos" />
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="/arquivos/jsMobile.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.js"></script>
+</body>
+</html>
